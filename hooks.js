@@ -29,7 +29,7 @@ export function useFormInput(defaultValue) {
   const [value,setValue] = useState(defaultValue);
 
   function handleChange(e) {
-    setValue(e.target.value)
+    setValue(e.target.value);
   }
 
   return {
